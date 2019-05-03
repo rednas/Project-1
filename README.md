@@ -12,7 +12,9 @@ Third time it is (m-(2*3))x(m-(2*3)) and so on.
 Lets say that it takes n times convolution with 3x3 kernal for the resolution to reach 1x1,
 then from the above statements,
 m-(2xn) = 1
+
 m-1 = 2xn
+
 n = (m-1)/2.
 
 when m = 199, 
