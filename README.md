@@ -1,6 +1,15 @@
 # Project-1
 
-Q)What are Channels and Kernels (according to EVA)?
+Q)What are Channels and Kernels (according to EVA)?                                                                         
+A)In Deep learning, filters are used to extract features from the images. 
+A filter basically is a nxn Matrics which will be used to do convolution operation on the image file to extract a feature out of the image.
+
+For Example, when a channel that is meant of detecting vertical edges is used to do convolution on an image, in the resultant image, 
+all the locations in the image where there are vertical edges, those will have more pixel value and other location will not be loud.
+
+There are various types of filters namely High pass filter, low pass filter, Gaussian filter, etc.
+Even though, the operation of convolution is same, the difference in the behavior of the filter or in other words the kind of feature that is extracted from the image, stems from the variation in the values of the Matrics.                                                 
+
 
 Q)Why should we only (well mostly) use 3x3 Kernels?                                                             
 A)when convolution is done with nxn kernal, the number of trainable parameters are nxn ( n to the power 2).                 
