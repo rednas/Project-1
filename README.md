@@ -2,7 +2,7 @@
 
 Q)What are Channels and Kernels (according to EVA)?
 
-Q)Why should we only (well mostly) use 3x3 Kernels?
+Q)Why should we only (well mostly) use 3x3 Kernels?                                                             
 A)when convolution is done with nxn kernal, the number of trainable parameters are nxn ( n to the power 2).
 Since the number trainable parameters increase with n, we would ideally want the n to be as small as possible.
 
