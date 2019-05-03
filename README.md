@@ -6,10 +6,10 @@ Q)Why should we only (well mostly) use 3x3 Kernels?
 A)when convolution is done with nxn kernal, the number of trainable parameters are nxn ( n to the power 2).                 
 Since the number trainable parameters increase with n, we would ideally want the n to be as small as possible.                 
 
-When an mXm image is convolved with a nxn kernal, the resultant resolution is (m-n+1)x(m-n+1).
+When an mxm image is convolved with a nxn kernal, the resultant resolution is (m-n+1)x(m-n+1).                               
 
-when n =1, there is no change in the resolution on the convolved image.
-when n=2, there is no sense of left, right with a 2x2 kernal.
+when n =1, there is no change in the resolution on the convolved image.                                                             
+when n=2, there is no sense of left, right with a 2x2 kernal.                                                                  
 when n=3, it is the ideal kernal interms of number of trainable parameters and to have a sense of left and right in the kernal.
 
 
