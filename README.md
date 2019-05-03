@@ -5,7 +5,8 @@ A)In Deep learning, filters(Channels/Kernels) are used to extract features from 
 A filter basically is a nxn Matrics which will be used to do convolution operation on the image file to extract a feature out of the image.
 
 For Example, when a channel that is meant of detecting vertical edges is used to do convolution on an image, in the resultant image, 
-all the locations in the image where there are vertical edges, those will have more pixel value and other location will not be loud.
+all the locations in the image where there are vertical edges, will have more pixel value(intense or more loud) and other location will not be loud or will have less pixel value.                                                                                           
+Like wise a red colour detecting kernal will result in more intensity at all the locations in the image where there is red colour and at other locations the intensity of the pixel will be very less or zero.                                                                 
 
 There are various types of filters namely High pass filter, low pass filter, Gaussian filter, etc.
 Even though, the operation of convolution is same, the difference in the behavior of the filter or in other words the kind of feature that is extracted from the image, stems from the variation in the values of the Matrics.                                                 
