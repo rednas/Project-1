@@ -1,7 +1,7 @@
 # Project-1
 
 Q)What are Channels and Kernels (according to EVA)?                                                                         
-A)In Deep learning, filters are used to extract features from the images. 
+A)In Deep learning, filters(Channels/Kernels) are used to extract features from the images. 
 A filter basically is a nxn Matrics which will be used to do convolution operation on the image file to extract a feature out of the image.
 
 For Example, when a channel that is meant of detecting vertical edges is used to do convolution on an image, in the resultant image, 
